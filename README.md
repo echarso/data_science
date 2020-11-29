@@ -44,8 +44,11 @@ lines / edges
 
 # video  7 system of objectives
 http://play2.dsv.su.se/Play/ca5601d7a39a47c3bac8dec8b16f96971d
+
 natural preference
+
 artifitial attribute example and preferential independence
+
 proxy attribute
 
 video 8 and 9 not red 10 value functions not finished
