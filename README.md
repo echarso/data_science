@@ -13,24 +13,24 @@ if i preffer A over  B then i should continue prefer A > B not matter if a 3rd a
 
 # components of a decission
 
-alternatives : what you can choose to do
+1. alternatives : what you can choose to do
 
-6.objectives : what is to acheived
+2. objectives : what is to acheived
 
-consequences : what happens if an alternative is choosen and a particular event takes place
+3. consequences : what happens if an alternative is choosen and a particular event takes place
 
-uncertainities : what is outside of our control comes with events
+4. uncertainities : what is outside of our control comes with events
 
-preferences : ranking gof conssequences
+5. preferences : ranking gof conssequences
 
-###One alternative imply a number of possible consequences each one with a propability
+### One alternative imply a number of possible consequences each one with a propability
 
-#visualize a decision problem 
+# visualize a decision problem 
 
-##influence diargam 
+## influence diargam 
 
 
-##decission trees 
+## decission trees 
 
 4 components:
 
