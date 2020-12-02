@@ -76,3 +76,17 @@ one pair of artifficial alternatives should differ on the level of all attribute
 
 Then we construct the relevant equsations that derive from the indifference statements and by also having in mind that the sum of weights = 1 we solve the problem 
 
+
+# swing method 
+
+From a variety (n) of attributes we construct the following alternatives
+
+1. where all the attributes have their worst values
+
+2 n alternatives where alla tributes have worst expect 1 out of n that has the best
+
+worst alt takes zero points and we ask experts to assing points to the rest with a scale till 100
+
+then we use the following formula to calculate weights wi = pointi / sum_of_points
+
+
