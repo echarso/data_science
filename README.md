@@ -34,6 +34,8 @@ if i preffer A over  B then i should continue prefer A > B not matter if a 3rd a
 
 4 components:
 
+
+
 alternative/ decision nodes
 
 event/propability nodes
@@ -52,3 +54,25 @@ artifitial attribute example and preferential independence
 proxy attribute
 
 video 8 and 9 not red 10 value functions not finished
+
+
+# additive model to work 
+
+## preferential indepedence 
+The possible levels of one attribute are affecting always in the same way the total value independent of the possible levels of the other attributes
+
+If i prefer a blue volvo > yellow volvo then i will prefer a blue fiat > yellow fiat
+
+
+defference indepedence for measurable attributes in additive models
+
+# trade off method 
+
+We need to have individual value functions for the attributes. 
+
+Then we construct indefference statements with pairing artifficial alternatives. 
+
+one pair of artifficial alternatives should differ on the level of all attributes exept on one attribute which should have same value in boths alternatives.
+
+Then we construct the relevant equsations that derive from the indifference statements and by also having in mind that the sum of weights = 1 we solve the problem 
+
