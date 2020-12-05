@@ -25,17 +25,25 @@
     
 # Clustering data 
 
-## k-means 
+## k-means - each datapoint brings its gravity
 
 we need to give as input the possible centers 
 #### algorithms randomly selects center values 
-calculates euclidian disctance from center 
+calculates euclidian disctance from centers for the iserted data point 
+
+assing the data point to nearest center 
+
+recalculate the center based on means of the data points that belong to center 
+
 adjust centers and re runs 
 
 ## k-medodis 
 
 we need to give as input the possible centers 
 #### we select datapoints as centers at initialization 
-calculates euclidian disctance from center 
-adjust centers and re runs 
+
+can use any distance measure for assing centers 
+
+recalculate centers and adjust only if it is benefitial 
+
  
