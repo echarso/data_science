@@ -23,19 +23,19 @@
     
     finds the coovaration matrix , and the basic dianysma so data can be represented by this minimal dianissma 
     
-#Clustering data 
+# Clustering data 
 
-##k-means 
+## k-means 
 
 we need to give as input the possible centers 
-###algorithms randomly selects center values 
+#### algorithms randomly selects center values 
 calculates euclidian disctance from center 
 adjust centers and re runs 
 
-##k-medodis 
+## k-medodis 
 
 we need to give as input the possible centers 
-###we select datapoints as centers at initialization 
+#### we select datapoints as centers at initialization 
 calculates euclidian disctance from center 
 adjust centers and re runs 
  
