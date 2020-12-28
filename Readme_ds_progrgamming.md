@@ -77,6 +77,29 @@ That is why we have random forests. is a collection of decission trees that are 
 This kind of decission can be described as propability of 3 out 10 trees in the forest classify a dataentry as of class A then we can claim that this dataentry has 30% probability to belong to class A and so on . 
 
 
+Classification metrics accuracy recall and confusion matrics , ROC 
+
+Confuciion matrix is used to describe how good our model was . We have the following scenarios 
+1. our model to classify an entry as of class A but the entry to be not class A , that model prediction can be called FP (false positive)
+2. our model to classify an entry as of class A and the entry to be of class A, that model prediction can be called TP ( true positive)
+3. our model to classify an entry as of class not A and the entry to be of class A , that. moodel prediction can be called FN
+3. our model to classify an entry as of class not A and the entry to be of class not A , that. moodel prediction can be called TN
+
+we can visualize the confusion matrix in the following array 
+
+                        prediction 
+                    class=A         class= !A
+ reality class=A.    TP.              FN
+ reality calss=!A.   FP.              TN
+ 
+ Accuracy = TP+TN/ all the sample 
+ accuracy can be very good but our model can be bad. 
+ In highly in balanced datasets such as fraud transactions We can have a model classifying a transaction as Valid. 
+ Acuracy will be very high but we are going to miss all. the frauds which is not good. So we want a metrics to balance this .
+ ROC is 
+
+
+
 
 
 
