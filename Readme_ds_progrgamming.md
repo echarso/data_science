@@ -21,9 +21,13 @@
     
     the importance of PCA principal component analysis 
     
+    step 1 z- normalization, 
+    step 2 find covariance matrix , which describes simularities of features 
+    step 3 find the egenvalues for that matrix , select the top ones that describes the most of the dataset
+    
     finds the coovaration matrix , and the basic dianysma so data can be represented by this minimal dianissma 
     
-# Clustering data 
+# Clustering data unsupervised
 
 ## k-means - each datapoint brings its gravity
 
@@ -47,3 +51,20 @@ can use any distance measure for assing centers
 recalculate centers and adjust only if it is benefitial 
 
  
+# Classification data , supervised
+
+## Decission trees and random forest 
+
+In decission trees we have nodes and leafs. In every node we run a test in one of our features that seperates / splits our dataset in the correspoing 2 leafs.
+
+Aim is to end up in nodes that cannot be separated/splitted anymore in respect to our classification goal.  For acheiving the above we have 3 basic concepts to. understand . Entropy , information gain and pure. 
+
+We call a set of datapoints / inpputs that is pure if the belong to the same classification unit/set.
+For example if my. target is to classify cars vs icecreams .  Then the following datapoints set ( volvo, subaru, vanilla , chocalate) is not pure.
+On the contrary this dataset is pure ( volvo, subaru) and. this one also (vanilla , chocalate)
+
+Entropy describes  the level of how not pure a dataset is. Or how much different datapoints we have in a dataset
+Information gain : In a decission tree we would like to 
+
+
+
