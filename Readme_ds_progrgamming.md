@@ -64,7 +64,22 @@ For example if my. target is to classify cars vs icecreams .  Then the following
 On the contrary this dataset is pure ( volvo, subaru) and. this one also (vanilla , chocalate)
 
 Entropy describes  the level of how not pure a dataset is. Or how much different datapoints we have in a dataset
-Information gain : In a decission tree we would like to 
+Information gain : In a decission tree we would like when performing a spliting in a node to end up in a more pure node, in other words in every split we would like to reduce entropy. This reducing of entropy we can describe oor quantify  it as information gain and the algoritgm of decission trees always splits the trees with the test in a value that gives the higher information gain . 
+
+Problem in decission trees.
+
+Which feature we are going to use for starting splitting our dataset? we are going end up with different decission trees when we decide different features for our initials nodes. 
+
+In addition decission trees are subject of overfitting. They learn our dataset too well almosst copying it, so when they are exposed to different data sets that they belong to same family they behave or score bad, because the are unable to generalize well. For example if we allow our decisssion tree to generate alot leafs. and nodes , or in other wordss to have high depth , then they may start classifying inputs based on their exact numeric values we had in our training  datasset.
+
+That is why we have random forests. is a collection of decission trees that are trained in random samples of the dataset . They start with different feature in the node and we don't let them going to high depth . When we classify an entry with random forest the classification decission iss based on the majority vote of the decission trees that consist our random forest. 
+
+This kind of decission can be described as propability of 3 out 10 trees in the forest classify a dataentry as of class A then we can claim that this dataentry has 30% probability to belong to class A and so on . 
+
+
+
+
+
 
 
 
