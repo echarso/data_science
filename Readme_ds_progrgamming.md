@@ -11,7 +11,12 @@
     
     since in every  feature value is represeanted in a correlation the rest relavant feature values. 
     
-2. binding 
+    
+    min max normalization vs z normalization 
+    
+https://www.codecademy.com/articles/normalization    
+
+2. binning 
 
    real value data are separated rgouped in buckets it helps analysis
    
