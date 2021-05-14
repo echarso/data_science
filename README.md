@@ -1,5 +1,18 @@
 # data_science
-#v2 rational thinkking 
+#v2 rational thinkking
+
+# Linear programing
+Objective minimize maximize cost 
+set constraints 
+set variables 
+run the solver 
+
+# Integer programming 
+
+# Goal programing 
+
+# Pareto Line
+
 # what are the axioms so a decission to be rational
 
 1.prospective orientation : decission should be based on the consequences
