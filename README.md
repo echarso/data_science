@@ -7,6 +7,8 @@ set constraints
 set variables 
 run the solver 
 
+## Multiple Objective Linear Programing 
+
 # Integer programming 
 
 # Goal programing 
