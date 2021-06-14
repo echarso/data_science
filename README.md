@@ -1,3 +1,9 @@
+Azure ML workbench 
+https://docs.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-ml
+
+With many available compute targets, like Azure Machine Learning Compute and Azure Databricks, and with advanced hyperparameter tuning services, you can build better models faster by using the power of the cloud.
+
+
 # data_science
 #v2 rational thinkking
 
